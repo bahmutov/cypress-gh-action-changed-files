@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/cypress-gh-action-changed-files/issues"
   },
-  "homepage": "https://github.com/bahmutov/cypress-gh-action-changed-files#readme"
+  "homepage": "https://github.com/bahmutov/cypress-gh-action-changed-files#readme",
+  "devDependencies": {
+    "cypress": "6.4.0"
+  }
 }

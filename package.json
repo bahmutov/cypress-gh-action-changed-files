@@ -1,0 +1,17 @@
+{
+  "name": "cypress-gh-action-changed-files",
+  "version": "1.0.0",
+  "description": "Shows how to run different Cypress projects depending on changed files",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-gh-action-changed-files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-gh-action-changed-files/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-gh-action-changed-files#readme"
+}

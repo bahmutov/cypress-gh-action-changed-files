@@ -1,0 +1,12 @@
+name: app-a
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cypress tests 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          project: apps/app-a

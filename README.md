@@ -1,7 +1,7 @@
 # cypress-gh-action-changed-files
 > Shows how to run different Cypress projects depending on changed files
 
-This monorepo shows how to run Cypress tests using [cypress-io/github-action](https://github.com/cypress-io/github-action) for each application depending on the changed files. See the workflow files for details.
+This monorepo shows how to run Cypress tests using [cypress-io/github-action](https://github.com/cypress-io/github-action) for each application depending on the changed files. See the workflow files for details and read [How to Test Monorepo Apps Using Cypress GitHub Action](https://glebbahmutov.com/blog/test-monorepo-apps/)
 
 App | Workflow | CI status | Description
 ---|---|---|---

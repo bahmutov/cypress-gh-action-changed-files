@@ -1,5 +1,12 @@
 name: app-a
-on: push
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+on:
+  push:
+    # only run this workflow when something in the app-a changes
+    # or in this workflow file
+    paths:
+      - 'apps/app-a/**'
+      - .github/workflows/app-a.yml
 jobs:
   test:
     runs-on: ubuntu-20.04

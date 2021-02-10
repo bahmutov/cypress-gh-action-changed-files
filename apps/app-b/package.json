@@ -1,0 +1,9 @@
+{
+  "name": "app-b",
+  "version": "1.0.0",
+  "description": "App b",
+  "private": true,
+  "scripts": {
+    "start": "../../node_modules/.bin/serve public"
+  }
+}

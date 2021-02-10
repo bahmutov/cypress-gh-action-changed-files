@@ -1,5 +1,13 @@
 name: app-c
-on: push
+on:
+  push:
+    # run this workflow when files inside app-c change
+    # or this workflow file changes
+    # or the root package.json file changes
+    paths:
+      - 'apps/app-c/**'
+      - package.json
+      - .github/workflows/app-c.yml
 jobs:
   test:
     runs-on: ubuntu-20.04

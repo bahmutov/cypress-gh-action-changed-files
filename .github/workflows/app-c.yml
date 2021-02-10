@@ -14,7 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # install dependencies using the root folder
+      - name: Install 📦
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+
+      # run tests in apps/app-c folder
+      # where its package.json file is located
+      # with "npm run dev" command
       - name: Cypress tests 🧪
         uses: cypress-io/github-action@v2
         with:
-          project: apps/app-c
+          install: false
+          working-directory: apps/app-c
+          start: npm run dev
+          # wait for the Next.js app to respond
+          # before starting Cypress tests
+          wait-on: 'http://localhost:3000'

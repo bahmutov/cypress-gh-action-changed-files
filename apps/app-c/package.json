@@ -1,0 +1,9 @@
+{
+  "name": "app-c",
+  "version": "1.0.0",
+  "description": "App c",
+  "private": true,
+  "scripts": {
+    "dev": "../../node_modules/.bin/next dev"
+  }
+}

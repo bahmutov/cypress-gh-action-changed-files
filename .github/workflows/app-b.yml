@@ -17,5 +17,5 @@ jobs:
       - name: Cypress tests 🧪
         uses: cypress-io/github-action@v2
         with:
-          working-directory: apps/app-b
+          project: apps/app-b
           start: npm start

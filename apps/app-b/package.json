@@ -4,6 +4,6 @@
   "description": "App b",
   "private": true,
   "scripts": {
-    "start": "../../node_modules/.bin/serve public"
+    "start": "../../node_modules/.bin/serve -p 5000 public"
   }
 }
